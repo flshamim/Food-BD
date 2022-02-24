@@ -13,39 +13,51 @@
     <div class="text-white first-head">
         <h1> <img height="100px" src="https://www.themealdb.com/images/meal-icon.png" alt=""> Food BD</h1>
         <h1 class="text-center">Search Your Favorite Food</h1>
+        <hr class="bg-light">
         <div class="d-flex p-5 justify-content-center">
-            <input class="form-control w-50" type="text"> 
-            <button class="btn btn-light">SEARCH</button>
+            <input id="search-field" class="form-control w-75" type="text"> 
+            <button onclick="searchFood()" id="search-button" class="btn btn-light">SEARCH</button>
        </div>
     </div>
 
+<!-- disolay search result -->
+<div id="search-result" class="card-group">
+   
+  </div>
+
+
+
+
     <!-- category -->
-    <div class="category">
+    <!-- <div class="category">
         <h2 class="text-center text-light">Food Category</h2>
 
-        <div class="card-group">
+        <div id="card" class="card-group">
             <div class="card m-3">
             <img src="https://www.themealdb.com/images/media/meals/n7qnkb1630444129.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Burger</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
             </div>
             </div>
             <div class="card m-3">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="https://www.themealdb.com/images/media/meals/1520083578.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">
+                    Oxtail with broad beans</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
             </div>
             <div class="card m-3">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="https://www.themealdb.com/images/media/meals/o2wb6p1581005243.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title">Ingredients</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
             </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <script src="app.js"></script>
 </body>
 </html>
