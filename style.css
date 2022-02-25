@@ -7,3 +7,17 @@
 body{
     background-color: rgb(129, 19, 19);
 }
+.card-all-body{
+    /* margin: 10px; */
+    border-radius: 10px;
+}
+.card-all{
+    background-color: rgb(114, 23, 23);
+}
+.buy-button{
+    background-color: rgb(114, 23, 23);
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: large;
+    
+}
